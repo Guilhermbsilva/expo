@@ -162,7 +162,7 @@ a{
   transform: scale(1.25);
 }
 
-@media only screen and (min-width: 500px) and (max-width:1366px ) {
+@media only screen and (min-width: 1000px) and (max-width:1366px ) {
   header{
     margin: 0 auto;
     background-color: #FFF;
@@ -242,6 +242,109 @@ h1,h2{
   margin: 0 auto;
   justify-content: center;
   font-size: 21px;
+}
+
+h6{
+display: flex;
+margin: 0 auto;
+justify-content: center;
+font-size: 15px;
+text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:600px ) {
+  #personagens-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 40px;
+    color: #FFF;
+    flex-direction: column;
+}
+  
+  header{
+    margin: 0 auto;
+    background-color: #FFF;
+    height: 70px;
+    justify-content: center;
+    filter: drop-shadow(1px 1px #000);
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+a{
+display: flex;
+color: #000;
+padding-left: 50px;
+margin-top: 25px;
+font-size: 25px;
+}
+
+#next{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  background-color: #555;
+  transition: 0.3s;
+  width: 45%;
+  font-size: 15px;
+  margin-top: 8%;
+}
+
+img{
+display: flex;
+max-width: 60%;
+justify-content: center;
+margin: 0 auto;
+border-radius: 20px;
+filter: drop-shadow(1px 1px 15px #FFF);
+margin-top: 20px;
+width: 200px;
+}
+
+#sla{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  background-color: #555;
+  transition: 0.3s;
+  width: 30%;
+  font-size: 16px;
+}
+
+h3,h4,h5{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 17px;
+}
+
+h1,h2{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 21px;
+  text-align: center;
 }
 
 h6{
