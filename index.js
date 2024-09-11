@@ -101,4 +101,3 @@ const btn = document.getElementById('chk');
 btn.addEventListener('change', () => {
     document.body.classList.toggle('dark');
 });
-
